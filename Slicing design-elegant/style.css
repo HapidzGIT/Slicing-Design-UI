@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+.layout-right {
+    width: 40%;
+    background-image: url(Rectangle\ 1\ \(1\).png);
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.layout {
+    display: flex;
+    min-width: 100vh;
+}
+
+.btn {
+    border-radius: 100px;
+    background: rgba(17, 63, 226, 0.10);
+    text-decoration: none;
+    color: #113FE2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    letter-spacing: 2px;
+}
+
+.layout-left {
+    width: 60%;
+    padding: 120px;
+}
+
+.heading {
+    color: #0A1B59;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 500px;
+}
+
+.teks-satu {
+    width: 500px;
+    line-height: 32px;
+    color: rgba(10, 27, 89, 0.60);
+    font-weight: 400;
+}
+
+.ctas-form {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.ctas-form input
+ {
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 52px;
+    margin-right: 20px;
+}
+
+.ctas-form button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.form-text {
+    color: rgba(10, 27, 89, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
